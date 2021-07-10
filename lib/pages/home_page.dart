@@ -10,7 +10,12 @@ class HomePage extends StatelessWidget {
     final String name = "mohosin akhan";
     return Scaffold(
       appBar: AppBar(
-        title: Text("Project 01"),
+        // backgroundColor: Colors.white,
+        // elevation: 0.0,
+        // iconTheme: IconThemeData(color: Colors.black),
+        title: Text(
+          "Project 01",
+        ),
       ),
       body: Center(
         child: Container(
