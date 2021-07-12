@@ -1,0 +1,85 @@
+{
+    "products":[
+        {
+      "id": 1,
+      "name": "Asus zenphone max",
+      "desc": "4 gb ram with sixteen gb rom",
+      "price": 12300,
+      "color": "#330250",
+      "image":
+          "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+        },
+        {
+            "id": 2,
+            "name": "Asus zenphone max",
+            "desc": "8 gb ram with sixteen gb rom",
+            "price": 12300,
+            "color": "#330250",
+            "image":
+                "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+         },
+         {
+         "id": 3,
+         "name": "Asus zenphone max",
+         "desc": "6 gb ram with sixteen gb rom",
+         "price": 12300,
+         "color": "#330250",
+         "image":
+           "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+         },
+        {
+         "id": 4,
+         "name": "Asus zenphone max",
+         "desc": "two gb ram with sixteen gb rom",
+         "price": 12300,
+         "color": "#330250",
+         "image":
+         "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+          },
+         {
+         "id": 5,
+         "name": "Asus zenphone max",
+         "desc": "two gb ram with sixteen gb rom",
+         "price": 12300,
+         "color": "#330250",
+         "image":
+           "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+         },
+         {
+         "id": 6,
+         "name": "Asus zenphone max",
+         "desc": "two gb ram with sixteen gb rom",
+         "price": 12300,
+         "color": "#330250",
+         "image":
+            "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+         },
+         {
+         "id": 7,
+         "name": "Asus zenphone max",
+         "desc": "two gb ram with sixteen gb rom",
+         "price": 12300,
+         "color": "#330250",
+         "image":
+            "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+        },
+        {
+        "id": 8,
+        "name": "Asus zenphone max",
+        "desc": "two gb ram with sixteen gb rom",
+        "price": 12300,
+        "color": "#330250",
+        "image":
+            "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+         },
+         {
+        "id": 9,
+        "name": "Asus zenphone max",
+        "desc": "two gb ram with sixteen gb rom",
+        "price": 12300,
+        "color": "#330250",
+        "image":
+           "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png"
+         }
+    ]
+}
