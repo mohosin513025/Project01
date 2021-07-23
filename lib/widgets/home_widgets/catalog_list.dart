@@ -13,7 +13,8 @@ class Project01List extends StatelessWidget {
       shrinkWrap: true,
       itemCount: CatalogModel.items.length,
       itemBuilder: (context, index) {
-        final catalog = CatalogModel.items[index];
+        // final catalog = CatalogModel.items[index];
+        final catalog = CatalogModel.getByPositin(index);
         return InkWell(
             onTap: () => Navigator.push(
                   context,

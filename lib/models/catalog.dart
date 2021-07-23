@@ -10,9 +10,16 @@ class CatalogModel {
   //     price: 12300,
   //     color: "#330250",
   //     image:
-  //         "https://www.gadgetshieldz.com/images/detailed/224/Asus_Zenfone_Max_Pro__M1__ZB601KL_Maximum_Protection_Ultra_Clear.png",
+  //         "https://www.gadgetshieldz.com//detailed/224.png",
   //   )
   // ];
+
+  //get item by id
+  static Item getById(int id) =>
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  //get item by position
+  static Item getByPositin(int pos) => items[pos];
 }
 
 class Item {

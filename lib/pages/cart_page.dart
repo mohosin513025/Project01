@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:project_01/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class CartPage extends StatelessWidget {
@@ -8,7 +7,7 @@ class CartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: MyTheme.creamColor,
+      backgroundColor: context.canvasColor,
       appBar: AppBar(
         backgroundColor: Colors
             .transparent, // transparent color used for same color as the scafold color has
