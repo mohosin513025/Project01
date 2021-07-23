@@ -6,7 +6,6 @@ import 'package:project_01/models/catalog.dart';
 import 'package:project_01/utilis/routes.dart';
 import 'package:project_01/widgets/home_widgets/catalog_header.dart';
 import 'package:project_01/widgets/home_widgets/catalog_list.dart';
-import 'package:project_01/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class HomePage extends StatefulWidget {
@@ -43,11 +42,14 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     // final dummyList = List.generate(6, (index) => CatalogModel.items[0]);
     return Scaffold(
-      backgroundColor: MyTheme.creamColor,
+      // backgroundColor: MyTheme.lightBluishColor,
+      backgroundColor: context.cardColor,
+      // backgroundColor: Theme.of(context).cardColor,
       floatingActionButton: FloatingActionButton(
         onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
-        backgroundColor: MyTheme.darkbluishColor,
-        child: Icon(CupertinoIcons.cart),
+        // backgroundColor: MyTheme.darkbluishColor,
+        backgroundColor: context.theme.buttonColor,
+        child: Icon(CupertinoIcons.cart, color: Colors.white),
       ),
       body: SafeArea(
         child: Container(

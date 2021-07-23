@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:project_01/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class Project01Header extends StatelessWidget {
@@ -10,7 +9,8 @@ class Project01Header extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        "Project 01".text.xl4.bold.color(MyTheme.darkbluishColor).make(),
+        // "Project 01".text.xl4.bold.color(MyTheme.darkbluishColor).make(),
+        "Project 01".text.xl4.color(context.theme.accentColor).bold.make(),
         "Trending Products".text.xl2.make(),
       ],
     );
