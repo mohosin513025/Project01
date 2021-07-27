@@ -41,7 +41,7 @@ class _CartTotal extends StatelessWidget {
           VxConsumer(
             mutations: {RemoveMutation},
             notifications: {},
-            builder: (context, _) {
+            builder: (ctx, _) {
               return "\$${_cart.totalPrice}"
                   .text
                   .xl4
